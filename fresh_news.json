@@ -1,0 +1,52 @@
+{
+    "liana": {
+        "date": "16:01",
+        "news": "В России рассказали о создании системы разведки «Лиана»",
+        "news_link": "https://lenta.ru//news/2022/11/10/liana/"
+    },
+    "nastup": {
+        "date": "16:00",
+        "news": "В Запорожье назвали приоритетное направление для наступления ВСУ",
+        "news_link": "https://lenta.ru//news/2022/11/10/nastup/"
+    },
+    "green_river": {
+        "date": "15:56",
+        "news": "Река в российском городе окрасилась в ярко-зеленый цвет",
+        "news_link": "https://lenta.ru//news/2022/11/10/green_river/"
+    },
+    "dronn": {
+        "date": "15:55",
+        "news": "Военнослужащие ВСУ рассказали о ежедневной «войне дронов»",
+        "news_link": "https://lenta.ru//news/2022/11/10/dronn/"
+    },
+    "vay": {
+        "date": "15:55",
+        "news": "Мошенники умудрились украсть 150 миллионов рублей за один телефонный звонок",
+        "news_link": "https://lenta.ru//news/2022/11/10/vay/"
+    },
+    "hard_times": {
+        "date": "15:52",
+        "news": "В ВСУ заявили о сложной ситуации в Донбассе",
+        "news_link": "https://lenta.ru//news/2022/11/10/hard_times/"
+    },
+    "rodnina": {
+        "date": "15:51",
+        "news": "Роднина призвала закрыть российские футбольные клубы",
+        "news_link": "https://lenta.ru//news/2022/11/10/rodnina/"
+    },
+    "reznikovpomoschssha": {
+        "date": "15:45",
+        "news": "На Украине оценили помощь США после выборов",
+        "news_link": "https://lenta.ru//news/2022/11/10/reznikovpomoschssha/"
+    },
+    "zarabershka": {
+        "date": "15:40",
+        "news": "Раскрыты предполагаемые названия вернувшихся в Россию брендов Zara и Bershka",
+        "news_link": "https://lenta.ru//news/2022/11/10/zarabershka/"
+    },
+    "lisa-detsad-10-11-2022.htm": {
+        "date": "15:40",
+        "news": "Лиса забралась на территорию детсада в Москве и попала на видео",
+        "news_link": "https://lenta.ru/https://moslenta.ru/news/city/lisa-detsad-10-11-2022.htm/"
+    }
+}
