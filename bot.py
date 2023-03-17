@@ -1,6 +1,6 @@
 import datetime
 import json
-from aiogram.utils.markdown import hbold,hunderline, hlink, hcode
+from aiogram.utils.markdown import hbold, hunderline, hlink, hcode
 from aiogram import Bot, Dispatcher, types, executor
 from aiogram.dispatcher.filters import Text
 from config import token
@@ -33,6 +33,7 @@ async def get_all_news(messege: types.Message):
         # print(news)
         await messege.answer(news)
 
+
 @dp.message_handler(Text(equals="Последние 5 новостей"))
 async def get_last_five_news(messege: types.Message):
     with open("fresh_news.json", "r", encoding="utf-8") as file:
@@ -42,6 +43,7 @@ async def get_last_five_news(messege: types.Message):
                f"{hlink(v['news'], v['news_link'])}"
 
         await messege.answer(news)
+
 
 @dp.message_handler(Text(equals="Горячие новости"))
 async def get_fresh_news(messege: types.Message):
@@ -56,9 +58,11 @@ async def get_fresh_news(messege: types.Message):
     else:
         await messege.answer("Пока нет свежих новостей...")
 
+
 @dp.message_handler()
 def main():
     executor.start_polling(dp)
+
 
 if __name__ == "__main__":
     main()
